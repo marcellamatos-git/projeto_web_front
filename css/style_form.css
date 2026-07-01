@@ -28,5 +28,52 @@ label{
     margin: 10px 0px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 1.2em;
 }
+
+.input-vlr01{
+    width: 400px;
+
+}
+
+.input-vlr01, .input-vlr02{
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+
+}
+
+.input-vlr02{
+    width: 250px;
+}
+
+input[type='radio'], input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    resize: none;
+    border-radius: 10px;
+}
+
+#div-btns{
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+button{
+    width: 150;
+    height: 30px;
+    cursor: pointer;
+    color: rgb(207, 109, 174);
+    border-radius: 10px;
+}
+
+
 
