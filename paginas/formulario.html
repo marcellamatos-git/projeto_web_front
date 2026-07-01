@@ -11,7 +11,54 @@
 
         <form name="form" id="form" method="post">
             <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" class="input-vlr01" maxlength="10" required placeholder="informe o nome">
+            <input type="text" name="nome" id="nome" class="input-vlr01" maxlength="10" required placeholder="informe o nome"> <br>
+            <br>
+
+            <label for="cpf">CPF</label>
+            <input type="number" name="cpf" id="cpf" class="input-vlr02" maxlength="14" required placeholder="informe o cpf"> <br> 
+            <br>
+
+            <label for="datanascimento">Data de Nascimento</label>
+            <input type="date" name="datanascimento" id="datanascimento" class="input-vlr02" required> <br>
+            <br>
+
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="sexo" id="sexo" class="input-op" value="m"> Masculino
+            <input type="radio" name="sexo" id="sexo" class="input-op" value="F"> Feminino
+            <input type="radio" name="sexo" id="sexo" class="input-op" value="N"> Não Declarar
+
+
+            <label for="preferencias">Preferências</label>
+            <input type="checkbox" name="estudo" class="input-op" value="estudo"> Estudo
+            <input type="checkbox" name="trabalho" class="input-op" value="trabalho"> Trabalho
+            <input type="checkbox" name="viagem" class="input-op" value="viagem"> Viagem
+            <input type="checkbox" name="compras" class="input-op" value="compras"> Compras
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="input-vlr02" maxlength="6" required placeholder="informe a senha">
+
+
+            <label for="estado"> Estado</label>
+            <select name="estado" id="estado" class="input-vlr02" required>
+                <option>selecione um Estado</option>
+                <option value="Al"> Alagoas</option>
+                <option value="Ba">Bahia</option>
+                <option value="Ce">Ceara</option>
+                <option value="Ma">Maranhão</option>
+                <option value="Pb">Paraíba</option>
+                <option value="Pe">Pernambuco</option>
+                <option value="Pi">Piauí</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="Se">Sergipe</option>
+
+            </select>
+
+            <label for="comentario">comentario</label>
+            <textarea name="comentario" id="comentario" placeholder="informe seu comentario" required ></textarea>
+
+            <button type="submit" id="btn-enviar">Enviar</button>
+            <button type="reset" id="btn-limpar">Limpar</button>
+            <button id="btn">Botão</button>
 
 
         </form>
