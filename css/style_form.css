@@ -55,7 +55,7 @@ input[type='radio'], input[type='checkbox']{
 }
 
 textarea{
-    width: 200px;
+    width: 300px;
     height: 100px;
     padding: 20px;
     resize: none;
@@ -74,6 +74,30 @@ button{
     color: rgb(207, 109, 174);
     border-radius: 10px;
 }
+
+input::placeholder, textarea::placeholder{
+    color: rgb(209, 151, 206);
+    letter-spacing: 2px;
+}
+
+a:link{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(226, 43, 202);
+    background-color: rgb(236, 213, 233);
+}
+
+a:visited, a:active{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(226, 43, 195);
+}
+
+a:hover{
+    color: rgb(114, 40, 184);
+    background-color: rgb(157, 115, 197);
+}
+
 
 
 
